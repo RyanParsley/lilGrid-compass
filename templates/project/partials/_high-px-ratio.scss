@@ -2,7 +2,7 @@
    Overrides styles for devices with a
    device-pixel-ratio of 2+, such as iPhone 4.  */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) {
-  #{$less-grid-element} {
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  #{$lilGrid-base-element} {
   }
 }
