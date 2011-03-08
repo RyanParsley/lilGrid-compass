@@ -1,5 +1,5 @@
 source "http://rubygems.org"
 
-# Specify your gem's dependencies in compass-less-plugin.gemspec
+# Specify your gem's dependencies in lilGrid-compass.gemspec
 gemspec
 
