@@ -1,8 +1,8 @@
-$less-grid-element: unquote("body") !default;
-$less-grid-padding: true !default;
-$less-font-family: Arial, sans-serif !default;
+$lilGrid-base-element: unquote("body") !default;
+$lilGrid-base-padding: true !default;
+$lilGrid-font-family: Arial, sans-serif !default;
 
-@mixin grid($columns, $padding: $less-grid-padding) {
+@mixin grid($columns, $padding: $lilGrid-base-padding) {
   @include column($columns, true);
 
   @if $padding == true {
