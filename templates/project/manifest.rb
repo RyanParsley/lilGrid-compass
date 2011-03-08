@@ -2,16 +2,16 @@ discover :stylesheet
 
 html "example.html"
 
-description "Less Framework"
+description "LilGrid Framework"
 
 help %Q{
-Please see the Less Framework website for documentation:
+Please see the LilGrid website for documentation:
 
-    http://lessframework.com/
+    http://lilGrid.com/
 }
 
 welcome_message %Q{
-Please see the Less Framework website for documentation:
+Please see the LilGrid Framework website for documentation:
 
-    http://lessframework.com/
+    http://lilgrid.com/
 }
