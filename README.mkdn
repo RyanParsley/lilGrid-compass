@@ -1,21 +1,7 @@
-Less Framework Compass Plugin
+LilGrid For Compass
 =============================
 
-This plugin adds Less Framework 4 to [Compass](http://compass-style.org/).
-
-Less Framework was written by Joni Korpi. For more information, visit the
-official site at [http:/lessframework.com/](http://lessframework.com/)
-
-
-Less Framework 4
-================
-
-Less Framework 4 was a significant upgrade to the version that came before it.
-As a result, this plugin is now **backwards incompatible** with earlier
-versions.
-
-If you need to use Less Framework 3, use version 0.8 of this plugin.
-
+This CSS Framework started as a fork of the Less Framework Compass Plugin.
 
 Installation
 ============
@@ -132,10 +118,3 @@ Mixins
    of given columns with a margin to the right; to disable the margin, set
    `$last` to `false`
 * `selection-color($color)` - Sets the background color used for text selection
-
-
-Special Thanks
-==============
-
-Thanks to Joni Korpi for providing the Less Framework to the community, and to
-Samson Ootoovak for helping me test the version 1 beta.
