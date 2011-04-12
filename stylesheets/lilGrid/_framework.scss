@@ -30,6 +30,17 @@ $lilGrid-font-family: Arial, sans-serif !default;
   }
 }
 
+@mixin padded-column($columns, $last: false) {
+  width: (68px * $columns) + (24px * ($columns - 1));
+  padding-left:10px;
+  padding-right:10px;
+  margin-left:-10px;
+  margin-right:-10px;
+  @if $last != true {
+    margin-right: 14px;
+  }
+}
+
 @mixin selection-color($color: unquote("rgb(255,255,158)")) {
   ::selection {background: #{$color};}
   ::-moz-selection {background: #{$color};}
